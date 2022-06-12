@@ -1,15 +1,17 @@
-#include "main.h"
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * print_alphabet - prints alphabet in lowercase
+ * main - entry block
  * @void: no argument
+ * Return: 0 (Sucess)
  **/
-
-void print_alphabet(void)
+int main(void)
 {
-char ch;
+int ch;
 
 for (ch = a; ch <= z; ch++)
-_putchar(ch);
-_putchar(n);
+putchar (ch);
+putchar (n);
+return (0);
 }
